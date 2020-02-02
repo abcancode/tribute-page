@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties */
+
+:root {
+    --ff-primary: 'Poppins', sans-serif;
+
+    --clr-light: #fff;
+    --clr-dark: #eee;
+
+    --fs-h1: 40px;  
+}
+
+
+/* General Styles */
+html {
+    background: linear-gradient(to right, rgba(87, 86, 151, 0.52), rgba(45, 43, 71, 0.60)), url(../img/transit.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: var(--ff-primary);
+}
+
+body {
+    font-family: var(--ff-primary);
+    color: var(--clr-dark);
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#main {
+    background: linear-gradient(to right, rgba(87, 86, 151, 0.52), rgba(45, 43, 71, 0.60)), url(../img/transit.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: var(--ff-primary);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+#title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#img-div {
+    text-align: center;
+    background: linear-gradient(to right, rgba(87, 86, 151, 0.52), rgba(45, 43, 71, 0.60)), url(transit.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: var(--ff-primary);
+    display: block;
+    padding: 0.5px;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    text-align: center;
+    margin: 50px;
+}
+
+.years {
+    font-weight: bold;
+}
+
+
+@media (min-width: 320px) {
+    #image {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 480px) {
+    #image {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+ul {
+    text-align: left;
+    width: 40%;
+    position:relative;
+    left: 30%;
+}
+
+li {
+    margin: 20px;
+}
+
+#link-p {
+    text-align: center;
+}
+
+.last-list {
+    list-style-type: none;
+}
+
+.last {
+    padding-top: 50px;
+}
